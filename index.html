@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coursify - Your Web Page Title</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Coursify</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Services</a>
+            <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <a class="dropdown-item" href="#">Service 1</a>
+              <a class="dropdown-item" href="#">Service 2</a>
+              <!-- Add more sub-menu items as needed -->
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle dropdown-menu-right" href="#" id="contactDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+            <div class="dropdown-menu" aria-labelledby="contactDropdown">
+              <a class="dropdown-item" href="#">Email</a>
+              <a class="dropdown-item" href="#">Phone</a>
+              <!-- Add more sub-menu items as needed -->
+            </div>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-outline-light mr-2">Log In</a>
+        <a href="#" class="btn btn-outline-light">Sign In</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="container">
+      <h1 class="font-weight-bold text-primary">Welcome to Coursify</h1>
+      <p class="tagline">Learn, Grow, Succeed</p>
+      <a href="#" class="btn btn-primary">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+<!-- Features Section -->
+<section class="features-section">
+    <div class="container">
+      <div class="row">
+        <!-- Feature 1: User Dashboard -->
+        <div class="col-md-4">
+          <div class="feature-item animated">
+            <i class="icon fa fa-user-cog"></i>
+            <h3>User Dashboard</h3>
+            <p>Manage your courses, track progress, and update account settings.</p>
+            <!-- Submenu for User Dashboard -->
+            <div class="dropdown">
+              <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" id="userDropdown"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore</a>
+              <div class="dropdown-menu" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">My Courses</a>
+                <a class="dropdown-item" href="#">My Progress</a>
+                <a class="dropdown-item" href="#">Account Settings</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Feature 2: Pricing Plans -->
+        <div class="col-md-4">
+          <div class="feature-item animated">
+            <i class="icon fa fa-tags"></i>
+            <h3>Pricing Plans</h3>
+            <p>Choose from various pricing plans tailored to your learning needs.</p>
+            <!-- Submenu for Pricing Plans -->
+            <div class="dropdown">
+              <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" id="pricingDropdown"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore</a>
+              <div class="dropdown-menu" aria-labelledby="pricingDropdown">
+                <a class="dropdown-item" href="#">Basic Plan</a>
+                <a class="dropdown-item" href="#">Premium Plan</a>
+                <a class="dropdown-item" href="#">Pro Plan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Feature 3: Progress Tracking -->
+        <div class="col-md-4">
+          <div class="feature-item animated">
+            <i class="icon fa fa-tasks"></i>
+            <h3>Progress Tracking</h3>
+            <p>Monitor your progress and achievements as you complete courses.</p>
+            <!-- Submenu for Progress Tracking -->
+            <div class="dropdown">
+              <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" id="progressDropdown"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore</a>
+              <div class="dropdown-menu" aria-labelledby="progressDropdown">
+                <a class="dropdown-item" href="#">Course Progress</a>
+                <a class="dropdown-item" href="#">Achievements</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer Section -->
+  <footer class="footer-section">
+    <div class="container">
+      <p>&copy; 2023 Coursify. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script>
+    // Animation using Animate.css
+    $(document).ready(function () {
+      $(".animated").addClass("animate__animated animate__fadeInUp");
+    });
+  </script>
+</body>
+
+</html>
+
+  
+  

@@ -1,0 +1,143 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #007bff; /* Change to light blue color (#007bff) */
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff; /* Change navbar brand text color to white (#fff) */
+  }
+  
+  .nav-link {
+    color: #fff; /* Change nav-link text color to white (#fff) */
+    font-size: 1rem;
+  }
+  
+  /* Add a new class for white buttons */
+/* styles.css */
+
+/* ... (existing styles) */
+
+/* Sign In and Log In buttons */
+.navbar .btn-outline-light {
+    color: #007bff;
+    border-color: #007bff;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    /* Updated background image with relative path */
+    background-image: url('wavy abstract grey gradient background_1202067.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section .tagline {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #fbb040; /* Custom tagline color */
+  }
+  
+  /* Get Started button animation */
+  .hero-section .btn-primary {
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-color: #007bff;
+    /* Add animation effect to the "Get Started" button */
+    animation: pulseAnimation 2s infinite;
+  }
+  
+  @keyframes pulseAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Features Section ... (existing styles) */
+  
+  
+  /* Features Section */
+/* styles.css */
+
+/* ... (existing styles) */
+
+/* Features Section */
+.features-section {
+    padding: 50px 0;
+  }
+  
+  .feature-item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature-item .icon {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .feature-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Add animation classes for animated effects */
+  .feature-item.animated {
+    opacity: 0;
+  }
+  
+  .feature-item.animate__fadeInUp.animated {
+    animation: fadeInUp 1s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 50%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  
+  /* Footer Section */
+  .footer-section {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-section p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
